@@ -33,7 +33,7 @@
                 Interval = (ts.TotalMilliseconds - CurrentTime.TotalMilliseconds);
 
                 if (Interval < 2000)
-                    Interval = 1000 * 60 * 24;  // runs every 24 hours                
+                    Interval = 1000 * 60 * 60 * 24;  // runs every 24 hours                
             }
             catch (Exception ex)
             {
